@@ -1,0 +1,256 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: white;
+}
+
+.container  {
+    width: 900px;
+    margin: auto;
+    background-color:white;
+}
+
+.header {
+    padding: 50px;
+    padding-left: 0;
+    padding-top: 20px;
+    height: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.header.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40;
+    font-weight: bold;
+    color:blue;    
+    
+}
+
+.title img {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+
+}
+.title img {
+    width: 200px;
+    margin-bottom: 10px;  
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 10px; 
+    }
+
+.nav a {
+    text-decoration: none;
+    color: cyan;
+    padding: 10px;
+    border: 2px solid darkblue;
+    border-radius: 20px; 
+    background-color: darkblue;
+}
+
+.nav a:hover {
+    background-color:lightskyblue;
+    color: darkblue;
+    border: none;
+}
+
+.hero{
+    height: 400px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -130px;
+    border-top: 5px ridge blue;
+    border-left: 5px ridge blue;
+    border-bottom: 5px groove cyan;
+    border-right: 5px groove cyan;
+    border-radius: 40px;
+}
+
+.about {
+    color: darkblue;
+    background-color: cyan;
+    opacity: 0.75;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;   
+    margin-right: 500px;
+    margin-top: 100px;
+    height: 120px;
+    position: relative;
+    line-height: 40px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid cyan;
+    border-radius: 500px;
+}
+
+.about .image {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.main {
+    background-color: rgb(20, 25, 117);
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.main .intro {
+    text-align: center;
+    
+}
+
+.content {
+    background-color: rgb(20, 25, 117);
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 40px;
+    padding: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.content .intro {
+    text-align: center;
+    
+}
+
+.intro p {
+    font-size: 12px;
+    margin: 0 ;
+    line-height: 16px
+}
+
+.middle {
+    background-image: url()
+
+}
+
+
+p {
+    font-size: 25px;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    color: white;
+    line-height: 40px;  
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: lightgrey;
+    border: 1px solid rgb(20, 25, 117);
+    letter-spacing: 2px;
+}
+p a:hover{
+    background-color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border: 1px solid blue;
+    letter-spacing: 2px;
+}
+
+.stitle {
+    font-weight: bold;
+}
+
+
+
+ul, h1 {
+    height: 25px;
+    padding:0;
+    margin:0 auto;
+    color: blue;
+}
+
+li {
+    list-style: none
+}
+
+
+.sidebar {
+    width: 300px;
+    float: right;
+}
+
+.sidebar ul li {
+    margin-top: 18px;
+    margin-right: 10px; 
+    text-align: center;
+    }
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid darkblue;
+    border-radius: 20px; 
+    background-color: darkblue;
+}
+
+.sidebar a:hover {
+    background-color:lightskyblue;
+    color: darkblue;
+    border: none;
+}
+
+.middle {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    border-bottom: 3px groove blue;
+    border-left: 3px groove blue;
+}
+
+
+
+.footer {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 ;
+    margin-top: 10px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
